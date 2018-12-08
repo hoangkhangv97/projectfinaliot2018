@@ -27,13 +27,23 @@ The connections vary based on the [board](https://developer.android.com/things/h
 
 | RC522 Pin | RPi Pin name | RPi Pin number |
 | --------- | ------- | -------------- |
-| SDA | GPIO8, CE0 | 24
+| SDA | GPIO8, SS0 | 24
 | SCK | GPIO11, SCKL | 23
 | MOSI | GPIO10, MOSI | 19
 | MISO | GPIO9, MISO | 21
-| GND | GND | 6, 9, 20, 25
-| RST | Any GPIO pin | --
-| 3.3V | 3V3V | 1, 17
+| GND | GND | 20
+| RST | GPIO25 | 22
+| 3.3V | 3V3V | 17
+
+### LED RGB 4PIN
+![led](https://i2.wp.com/einhugur.com/blog/wp-content/uploads/2015/10/RGBLedGPIONew.png?w=800&ssl=1)
+
+| Led Pin | RPi Pin name | RPi Pin number |
+| --------- | ------- | -------------- |
+| RED | GPIO4 | 7
+| GREEN | GPIO5 | 29
+| BLUE | GPIO6 | 31
+| 3.3V | 3V3V | 1
 
 
 ## Installing
