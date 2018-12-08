@@ -36,7 +36,7 @@ The connections vary based on the [board](https://developer.android.com/things/h
 | 3.3V | 3V3V | 17
 
 ### LED RGB 4PIN
-![led](https://i2.wp.com/einhugur.com/blog/wp-content/uploads/2015/10/RGBLedGPIONew.png?w=800&ssl=1)
+![led](https://i2.wp.com/einhugur.com/blog/wp-content/uploads/2015/10/RGBLedGPIONew.png?ssl=1)
 
 | Led Pin | RPi Pin name | RPi Pin number |
 | --------- | ------- | -------------- |
